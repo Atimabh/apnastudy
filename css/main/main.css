@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Jost', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .sidenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%;
+  min-height: 100vh;
+}
+
+.container .sidenav .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .sidenav .top img {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.container .sidenav .top button {
+  display: none;
+}
+
+.container .sidenav .navigation {
+  margin: 0 auto;
+}
+
+.container .sidenav .navigation a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+.container .sidenav .navigation a h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.container .sidenav .navigation a h1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container .midcontent {
+  width: 60%;
+  background-color: rgba(216, 216, 216, 0.212);
+}
+
+.container .rightpanel {
+  width: 20%;
+}
+
+.active {
+  color: #a0a1ca !important;
+}
+
+@media (max-width: 800px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .sidenav {
+    width: 100%;
+    min-height: auto;
+  }
+  .container .sidenav .top {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .sidenav .top img {
+    margin: 0 0.2rem;
+    width: 20%;
+    display: inline-block;
+  }
+  .container .sidenav .top button {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: inline-block;
+    outline: none;
+  }
+  .container .sidenav .navigation {
+    display: none;
+  }
+  .container .midcontent {
+    width: 100%;
+  }
+  .container .rightpanel {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
