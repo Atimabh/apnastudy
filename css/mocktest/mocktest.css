@@ -1,0 +1,204 @@
+.container .midcontent .titlebar {
+  width: 95%;
+  margin: 0.5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .midcontent .titlebar h1 {
+  font-size: 1.5rem;
+}
+
+.container .midcontent .cardrow {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container .midcontent .cardrow h1 {
+  font-weight: 600;
+}
+
+.container .midcontent .cardrow .cardWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.container .midcontent .cardrow .cardWrapper .purple h1 {
+  background-color: #292059;
+}
+
+.container .midcontent .cardrow .cardWrapper .bluegreen h1 {
+  background-color: #006a71;
+}
+
+.container .midcontent .cardrow .cardWrapper .orange h1 {
+  background-color: #ff5f40;
+}
+
+.container .midcontent .cardrow .cardWrapper .grey h1 {
+  background-color: #363636;
+}
+
+.container .midcontent .cardrow .cardWrapper .mock h1 {
+  color: #ffffff;
+  padding: 0.5rem 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.container .midcontent .cardrow .cardWrapper .mock .startbtn {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container .midcontent .cardrow .cardWrapper .mock .startbtn h2 {
+  background-color: #CD0000;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0.5rem auto;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.5rem;
+}
+
+.container .midcontent .cardrow .cardWrapper .card {
+  margin: 0 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  min-width: 10rem;
+  -webkit-box-shadow: 0 7px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 7px 6px 0 rgba(0, 0, 0, 0.16);
+  text-align: center;
+  cursor: pointer;
+}
+
+.container .midcontent .cardrow .cardWrapper .card img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 80%;
+  margin: 0 1rem;
+}
+
+.container .modules {
+  margin-top: 1.5rem !important;
+}
+
+.container .modules .modulecard {
+  min-height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .rightpanel .dp {
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .rightpanel .dp img {
+  width: 30%;
+}
+
+.container .rightpanel .upcoming {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #292059;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem 0;
+}
+
+.container .rightpanel .upcoming ul {
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+.container .balance {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 0.5rem 0.8rem;
+  background-color: #292059;
+  color: #ffffff;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.container .badge-rank {
+  width: 90%;
+  margin: 1rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .badge-rank .badge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.8rem;
+}
+
+.container .badge-rank .badge img {
+  width: 50%;
+}
+
+.container .badge-rank .rank {
+  text-align: center;
+}
+
+.container .badge-rank .rank h1 {
+  font-size: 1.6rem;
+}
+/*# sourceMappingURL=mocktest.css.map */
