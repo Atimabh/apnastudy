@@ -54,6 +54,26 @@
   background-color: #363636;
 }
 
+.container .midcontent .cardrow .cardWrapper .blue h1 {
+  background-color: #848ccf;
+}
+
+.container .midcontent .cardrow .cardWrapper .lgreen h1 {
+  background-color: #96bb7c;
+}
+
+.container .midcontent .cardrow .cardWrapper .yellow h1 {
+  background-color: #eebb4d;
+}
+
+.container .midcontent .cardrow .cardWrapper .lgrey h1 {
+  background-color: #838383;
+}
+
+.container .midcontent .cardrow .cardWrapper .lpurple h1 {
+  background-color: #856c8b;
+}
+
 .container .midcontent .cardrow .cardWrapper .mock h1 {
   color: #ffffff;
   padding: 0.5rem 0.5rem;
@@ -75,6 +95,30 @@
   margin: 0.5rem auto;
   padding: 0.5rem 0.6rem;
   border-radius: 0.5rem;
+}
+
+.container .midcontent .cardrow .cardWrapper .mock .live {
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+          animation: blink-animation 1s steps(5, start) infinite;
+}
+
+.container .midcontent .cardrow .cardWrapper .mock .live h2 {
+  background-color: #ffffff !important;
+  color: #CD0000 !important;
+  border: 1px solid #CD0000;
+  font-size: 0.8rem;
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 
 .container .midcontent .cardrow .cardWrapper .card {
