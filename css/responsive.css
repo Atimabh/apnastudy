@@ -9,8 +9,13 @@
             align-items: center;
   }
   .navbar .logo {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .navbar .logo img {
     width: 10%;
-    min-width: 12rem;
+    min-width: 18rem;
   }
   .navbar .login {
     margin: 1rem;
