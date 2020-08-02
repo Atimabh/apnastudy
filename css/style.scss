@@ -91,7 +91,7 @@ body {
 .subHeader {
     width: 95%;
     margin: 0 auto;
-    height: 90vh;
+    min-height: 90vh;
     .title {
         text-align: center;
         h1 {
@@ -136,6 +136,34 @@ body {
                     font-weight: 400;
                     letter-spacing: 0.05rem;
                 }
+            }
+        }
+    }
+}
+
+.subjectsWrapper {
+    width: 95%;
+    margin: 0 auto;
+    .subjectTitle {
+        text-align: left;
+        font-size: 3rem;
+        font-weight: 500;
+        margin-bottom: 5rem;
+    }
+    .subjectCardWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .subjectCard {
+            margin-bottom: 8rem;
+            width: fit-content;
+            text-align: center;
+            .subjectImg {
+                font-size: 5rem;
+                margin: 1rem 0;
+            }
+            .subjectText {
+                font-size: 1.5rem;
             }
         }
     }

@@ -47,7 +47,26 @@
             flex-direction: column;
             margin-top: 2rem;
             .feature {
-                margin-bottom: 4rem;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+    .subjectsWrapper {
+        margin-top: 5rem;
+        .subjectTitle {
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .subjectCardWrapper {
+            flex-direction: column;
+            .subjectCard {
+                margin: 3rem auto;
+                .subjectImg {
+                    font-size: 8rem;
+                }
+                .subjectText {
+                    font-size: 2rem;
+                }
             }
         }
     }

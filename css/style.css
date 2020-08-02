@@ -124,7 +124,7 @@ body {
 .subHeader {
   width: 95%;
   margin: 0 auto;
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .subHeader .title {
@@ -198,5 +198,47 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.05rem;
+}
+
+.subjectsWrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.subjectsWrapper .subjectTitle {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.subjectsWrapper .subjectCardWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.subjectsWrapper .subjectCardWrapper .subjectCard {
+  margin-bottom: 8rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+}
+
+.subjectsWrapper .subjectCardWrapper .subjectCard .subjectImg {
+  font-size: 5rem;
+  margin: 1rem 0;
+}
+
+.subjectsWrapper .subjectCardWrapper .subjectCard .subjectText {
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */

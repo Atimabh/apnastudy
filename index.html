@@ -7,6 +7,8 @@
     <title>Apna Study</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/4e9a685ceb.js" crossorigin="anonymous"></script>
 </head>
 
@@ -37,7 +39,7 @@
                 GET STARTED
             </a>
         </div>
-        <div class="image">
+        <div class="image" data-aos="fade-right" data-aos-duration="1000">
             <img src="images/header-img.png" alt="">
         </div>
     </div>
@@ -50,7 +52,7 @@
         <div class="featureWrapper">
             <div class="feature">
                 <div class="featureImg blue">
-                    <i class="fas fa-book-reader"></i>
+                    <i class="fas fa-book-reader" data-aos="zoom-in"></i>
                 </div>
                 <div class="featureText">
                     <h1>100,000 online courses</h1>
@@ -59,7 +61,7 @@
             </div>
             <div class="feature">
                 <div class="featureImg blue">
-                    <i class="fas fa-pencil-ruler"></i>
+                    <i class="fas fa-pencil-ruler" data-aos="zoom-in"></i>
                 </div>
                 <div class="featureText">
                     <h1>Expert instruction</h1>
@@ -68,7 +70,7 @@
             </div>
             <div class="feature">
                 <div class="featureImg blue">
-                    <i class="fas fa-calendar"></i>
+                    <i class="fas fa-calendar" data-aos="zoom-in"></i>
                 </div>
                 <div class="featureText">
                     <h1>Lifetime access</h1>
@@ -78,6 +80,71 @@
         </div>
     </div>
 
+    <!-- Popular Subjects -->
+    <div class="subjectsWrapper">
+        <div class="subjectTitle">Popular Subjects</div>
+        <div class="subjectCardWrapper">
+            <div class="subjectCard">
+                <div class="subjectImg">
+                    <i class="fas fa-laptop" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000"></i>
+                </div>
+                <div class="subjectText">
+                    Computer <br> Science
+                </div>
+            </div>
+            <div class="subjectCard">
+                <div class="subjectImg">
+                    <i class="fas fa-briefcase" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000"></i>
+                </div>
+                <div class="subjectText">
+                    Business & <br> Management
+                </div>
+            </div>
+            <div class="subjectCard">
+                <div class="subjectImg">
+                    <i class="fas fa-dna" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000"></i>
+                </div>
+                <div class="subjectText">
+                    Biology & <br> Life Sciences
+                </div>
+            </div>
+            <div class="subjectCard">
+                <div class="subjectImg">
+                    <i class="fas fa-seedling" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000"></i>
+                </div>
+                <div class="subjectText">
+                    Environmental <br> Science
+                </div>
+            </div>
+            <div class="subjectCard">
+                <div class="subjectImg">
+                    <i class="far fa-chart-bar" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000"></i>
+                </div>
+                <div class="subjectText">
+                    Data Analysis <br> & Statistics
+                </div>
+            </div>
+            <div class="subjectCard">
+                <div class="subjectImg">
+                    <i class="fas fa-pizza-slice" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000"></i>
+                </div>
+                <div class="subjectText">
+                    Food & <br> Nutrition
+                </div>
+            </div>
+            <div class="subjectCard">
+                <div class="subjectImg">
+                    <i class="far fa-comments" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000"></i>
+                </div>
+                <div class="subjectText">
+                    Social <br> Sciences
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
