@@ -45,8 +45,7 @@
     margin: 1rem auto;
   }
   .subHeader .title h1 {
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 3.5rem;
   }
   .subHeader .featureWrapper {
     -webkit-box-orient: vertical;
@@ -79,6 +78,27 @@
   }
   .subjectsWrapper .subjectCardWrapper .subjectCard .subjectText {
     font-size: 2rem;
+  }
+  .testWrapper .testCardWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testWrapper .testCardWrapper .testCard {
+    margin: 2rem auto;
+  }
+  .joinWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .joinWrapper .joinImg {
+    width: 100%;
+  }
+  .joinWrapper .joinText {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

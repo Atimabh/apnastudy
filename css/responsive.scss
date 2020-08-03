@@ -39,8 +39,7 @@
     .subHeader {
         .title {
             h1 {
-                font-size: 3rem;
-                font-weight: 600;
+                font-size: 3.5rem;
             }
         }
         .featureWrapper {
@@ -68,6 +67,23 @@
                     font-size: 2rem;
                 }
             }
+        }
+    }
+    .testWrapper {
+        .testCardWrapper {
+            flex-direction: column;
+            .testCard {
+                margin: 2rem auto;
+            }
+        }
+    }
+    .joinWrapper {
+        flex-direction: column;
+        .joinImg {
+            width: 100%;
+        }
+        .joinText {
+            width: 100%;
         }
     }
 }

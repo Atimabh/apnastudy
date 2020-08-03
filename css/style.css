@@ -241,4 +241,123 @@ body {
 .subjectsWrapper .subjectCardWrapper .subjectCard .subjectText {
   font-size: 1.5rem;
 }
+
+.testWrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.testWrapper .testTitle {
+  text-align: center;
+  margin: 2rem 0;
+  margin-top: 5rem;
+}
+
+.testWrapper .testTitle h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+.testWrapper .testCardWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 5rem 0;
+}
+
+.testWrapper .testCardWrapper .testCard {
+  width: 18rem;
+  border: 1px solid #b6b6b6;
+  border-radius: 1rem;
+  padding: 1rem 0;
+}
+
+.testWrapper .testCardWrapper .testCard #polityImg img {
+  width: 50%;
+}
+
+.testWrapper .testCardWrapper .testCard #geographyImg img {
+  width: 40%;
+}
+
+.testWrapper .testCardWrapper .testCard #science img {
+  width: 40%;
+}
+
+.testWrapper .testCardWrapper .testCard .testImg {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.testWrapper .testCardWrapper .testCard .testImg img {
+  width: 30%;
+}
+
+.testWrapper .testCardWrapper .testCard .testText {
+  text-align: center;
+}
+
+.testWrapper .testCardWrapper .testCard .testText a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #d84848;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 0.8rem;
+}
+
+.joinWrapper {
+  width: 95%;
+  margin: 10rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.joinWrapper .joinImg {
+  width: 50%;
+  text-align: center;
+}
+
+.joinWrapper .joinImg img {
+  width: 70%;
+}
+
+.joinWrapper .joinText {
+  width: 50%;
+}
+
+.joinWrapper .joinText p {
+  margin: 5rem 0;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 3.8rem;
+}
+
+.joinWrapper .joinText a {
+  text-decoration: none;
+  color: #d84848;
+  font-size: 2rem;
+  font-weight: 600;
+}
 /*# sourceMappingURL=style.css.map */
