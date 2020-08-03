@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -81,9 +81,15 @@
         flex-direction: column;
         .joinImg {
             width: 100%;
+            img {
+                width: 80%;
+            }
         }
         .joinText {
             width: 100%;
+            p {
+                font-size: 2.5rem;
+            }
         }
     }
 }
